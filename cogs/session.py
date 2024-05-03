@@ -1,13 +1,19 @@
-from datetime import timedelta, datetime
+from dataclasses import dataclass
+import datetime
 from discord.ext import commands
-from session import Session
-from player import Player
-import discord
+from dataclasses import dataclass
 
-import session, bot
 
-# Commands to start and stop the play session
-@bot.command()
+# Dataclass to store the session state
+@dataclass
+class Session:
+    is_active: bool = False
+    start_time: int = 0
+    player = None
+
+
+'''
+@commands.command()
 async def play(ctx):
     if session.is_active:
         await ctx.send("Session is already active")
@@ -16,7 +22,8 @@ async def play(ctx):
         session.start_time = ctx.message.created_at.timestamp()
         await ctx.send("Session started")
 
-@bot.command()
+
+@commands.command()
 async def stop(ctx):
     if session.is_active:
         session.is_active = False
@@ -26,7 +33,6 @@ async def stop(ctx):
         await ctx.send(f"Session stopped after {human_readable_duration}")
     else:
         await ctx.send("No active session")
-
-# command to make a new_character, deleteing the previous character if it exists
-
-    
+'''
+async def setup(bot):
+    pass

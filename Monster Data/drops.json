@@ -9,298 +9,35 @@
         "name": "Club",
         "type": "weapon",
         "rarity": "common",
-        "damage": "1d4 bludgeoning",
-        "weight": "2 lbs"
+        "damage": "1d4",
+        "damage_type": "bludgeoning"
     },
     {
         "name": "Dagger",
         "type": "weapon",
         "rarity": "common",
-        "damage": "1d4 piercing",
-        "weight": "1 lbs"
+        "damage": "1d4",
+        "damage_type": "piercing"
     },
     {
         "name": "Short Sword",
         "type": "weapon",
         "rarity": "common",
-        "damage": "1d6 piercing",
-        "weight": "2 lbs"
+        "damage": "1d6",
+        "damage_type": "piercing"
     },
     {
         "name": "Sling",
         "type": "weapon",
         "rarity": "common",
-        "damage": "1d4 bludgeoning",
-        "weight": "0.5 lbs"
+        "damage": "1d4",
+        "damage_type": "bludgeoning"
     },
     {
         "name": "Staff",
         "type": "weapon",
         "rarity": "common",
-        "damage": "1d6 bludgeoning",
-        "weight": "4 lbs"
-    },
-    {
-        "name": "Club",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d4 bludgeoning",
-        "weight": "2 lbs"
-    },
-    {
-        "name": "Spear",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d6 piercing",
-        "weight": "3 lbs"
-    },
-    {
-        "name": "Quarterstaff",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d6 bludgeoning",
-        "weight": "4 lbs"
-    },
-    {
-        "name": "Scimitar",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d6 slashing",
-        "weight": "3 lbs"
-    },
-    {
-        "name": "Mace",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d6 bludgeoning",
-        "weight": "4 lbs"
-    },
-    {
-        "name": "Crossbow, Light",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d8 piercing",
-        "weight": "5 lbs"
-    },
-    {
-        "name": "Shield",
-        "type": "armor",
-        "rarity": "common",
-        "armor_class": 2
-    },
-    {
-        "name": "Javelin",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d6 piercing",
-        "weight": "2 lbs"
-    },
-    {
-        "name": "Trident",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d6 piercing",
-        "weight": "4 lbs"
-    },
-    {
-        "name": "Handaxe",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d6 slashing",
-        "weight": "2 lbs"
-    },
-    {
-        "name": "Battleaxe",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d8 slashing",
-        "weight": "4 lbs"
-    },
-    {
-        "name": "Longsword",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d8 slashing",
-        "weight": "3.5 lbs"
-    },
-    {
-        "name": "Warhammer",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d8 bludgeoning",
-        "weight": "2 lbs"
-    },
-    {
-        "name": "Greatclub",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d8 bludgeoning",
-        "weight": "8 lbs"
-    },
-    {
-        "name": "Shortbow",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d6 piercing",
-        "weight": "2 lbs"
-    },
-    {
-        "name": "Longbow",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d8 piercing",
-        "weight": "2 lbs"
-    },
-    {
-        "name": "Chain Shirt",
-        "type": "armor",
-        "rarity": "common",
-        "armor_class": 13
-    },
-    {
-        "name": "Scale Mail",
-        "type": "armor",
-        "rarity": "common",
-        "armor_class": 14
-    },
-    {
-        "name": "Spear",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d6 piercing",
-        "weight": "3 lbs"
-    },
-    {
-        "name": "Battleaxe",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d8 slashing",
-        "weight": "4 lbs"
-    },
-    {
-        "name": "Greataxe",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d12 slashing",
-        "weight": "7 lbs"
-    },
-    {
-        "name": "Maul",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "2d6 bludgeoning",
-        "weight": "10 lbs"
-    },
-    {
-        "name": "Morningstar",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d8 piercing",
-        "weight": "4 lbs"
-    },
-    {
-        "name": "Trident",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d6 piercing",
-        "weight": "4 lbs"
-    },
-    {
-        "name": "Flail",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d8 bludgeoning",
-        "weight": "2 lbs"
-    },
-    {
-        "name": "Halberd",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d10 slashing",
-        "weight": "6 lbs"
-    },
-    {
-        "name": "Glaive",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d10 slashing",
-        "weight": "6 lbs"
-    },
-    {
-        "name": "Pike",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d10 piercing",
-        "weight": "18 lbs"
-    },
-    {
-        "name": "Longspear",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d8 piercing",
-        "weight": "9 lbs"
-    },
-    {
-        "name": "Heavy Crossbow",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d10 piercing",
-        "weight": "18 lbs"
-    },
-    {
-        "name": "Greatsword",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "2d6 slashing",
-        "weight": "6 lbs"
-    },
-    {
-        "name": "Maul",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "2d6 bludgeoning",
-        "weight": "10 lbs"
-    },
-    {
-        "name": "Warhammer",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d8 bludgeoning",
-        "weight": "2 lbs"
-    },
-    {
-        "name": "Morningstar",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d8 piercing",
-        "weight": "4 lbs"
-    },
-    {
-        "name": "Glaive",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d10 slashing",
-        "weight": "6 lbs"
-    },
-    {
-        "name": "Pike",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d10 piercing",
-        "weight": "18 lbs"
-    },
-    {
-        "name": "Longspear",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d8 piercing",
-        "weight": "9 lbs"
-    },
-    {
-        "name": "Heavy Crossbow",
-        "type": "weapon",
-        "rarity": "common",
-        "damage": "1d10 piercing",
-        "weight": "18 lbs"
+        "damage": "1d6",
+        "damage_type": "bludgeoning"
     }
 ]

@@ -1,0 +1,42 @@
+[
+    {
+    "name": "Goblin",
+    "Armor Class": "15",
+    "Hit Points": "7",
+    "Resistances": "None",
+    "Challenge": "1/4",
+    "Actions": "Melee Attack: (1d6 + 2) slashing damage., Ranged Attack: (1d6 + 2) piercing damage."
+  },
+  {
+    "name": "Kobold",
+    "Armor Class": "12",
+    "Hit Points": "5",
+    "Resistances": "None",
+    "Challenge": "1/8",
+    "Actions": "Melee Attack: (1d4 + 2) piercing damage., Ranged Attack: (1d4) piercing damage."
+},
+{
+    "name": "Skeleton",
+    "Armor Class": "13",
+    "Hit Points": "13",
+    "Resistances": "None",
+    "Challenge": "1/4",
+    "Actions": "Melee Attack: (1d6 + 2) slashing damage., Ranged Attack: (1d6 + 2) piercing damage."
+},
+{
+    "name": "Giant Rat",
+    "Armor Class": "12",
+    "Hit Points": "7",
+    "Resistances": "None",
+    "Challenge": "1/8",
+    "Actions": "Melee Attack: (1d4) piercing damage."
+},
+{
+    "name": "Zombie",
+    "Armor Class": "8",
+    "Hit Points": "22",
+    "Resistances": "None",
+    "Challenge": "1/4",
+    "Actions": "Melee Attack: (1d6 + 1) bludgeoning damage."
+}
+]
